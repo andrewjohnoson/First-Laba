@@ -4,6 +4,7 @@
 
 int main()
 {
+    setlocale(LC_ALL, "rus");
     float h, t;
     printf("Введите высоту, с которой падает камень: \n");
     scanf("%f", &h);
